@@ -11,6 +11,10 @@ pub enum MessageType {
     MidSystemRestart,
     MidSystemPowerSourceChanged, // NA, System Power Source Changed
 
+    // Hardware Dictator Messages
+    MidHardwareRequest, // NA, Request Hardware exclusive access
+    MidHardwareRelease, // NA, Release Hardware exclusive access
+
     //Rotary Encoder Control Messages
     MidRotaryEncoderChanged,     // NA, Rotary Encoder Value Changed
     MidRotaryEncoderPressed,     // NA, Rotary Encoder Button Pressed
